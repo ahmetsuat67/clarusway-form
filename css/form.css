@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+}
+body {
+    color: white;
+    background-image: url(/clarusway-form/image/abstract-backgrounds-minimalistic-website-wallpaper-preview.jpg);
+}
+main{
+    width: 1240px;
+    height: 1036px;
+    background-color: rgba(185, 16, 129, 0.3);
+    margin: auto;
+    margin-top: 30px;
+}
+header{
+    margin: 0px 300px;
+    color: white;
+}
+#h1{
+    font-size:60px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+}
+.p{
+    font-size:24px;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+#back{
+    width: 500px;
+    background-color: rgba(126, 15, 15, 0.8);
+    margin: auto;
+    margin-top: 10px;
+    padding: 10px 40px;
+}

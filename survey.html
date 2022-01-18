@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/cw-favicon.jpg">
+    <link rel="stylesheet" href="./css/form.css">
+    <title>Clarusway Survey Form</title>
+</head>
+<body>
+    <main>
+        <header>
+            <h1 id="h1">Clarusway Survey Form</h1>
+            <p class="p"><strong>Thank you for taking to time to help us improve the platform</strong>  </p>
+        </header>
+        <section id="back">
+            <form action="result.html">
+                <div>
+                    <label for="">Name</label>
+                    <br>
+                    <input type="text" id="name" name="name" placeholder="Enter your name">
+                </div>
+                <br>
+                <div>
+                    <label for="">Surname</label>
+                    <br>
+                    <input type="text" id="Surname" name="Surname" placeholder="Enter your Surname">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="e-mail" id="email" name="email" placeholder="user@clarusway.com">
+                </div>
+                <br>
+                <div>
+                    <label class="p" for="content">Which option best describes your current role?</label>
+                    <br>
+                    <select name="content" id="dropdown">
+                        <option value="describes" selected>Select an option</option>
+                    </select>
+                </div>
+                <br>
+                <div >
+                    <label class="p" for="Gender">Would you recommend Clarusway to a friend?</label>
+                    <br>
+                    <input type="radio" name=" recommend" id="first-radio" value="definitely" checked>
+                    <label for="first-radio">Definitely,Yes</label>
+                    <br>
+                    <input type="radio" name=" recommend" id="second-radio" value="Maybe" >
+                    <label for="second-radio">Maybe</label>
+                    <br>
+                    <input type="radio" name="gender" id="third-radio" value="not">
+                    <label for="third-radio">Not sure</label>
+                    <br>
+                    <input type="radio" name="gender" id="third-radio" value="no">
+                    <label for="third-radio">Definitely,No</label>
+
+                </div>
+                <br>
+
+                <div>
+                    <label class="p" for="content">What is your favorite feature of Clarusway?</label>
+                    <br>
+                    <select name="content" id="dropdown">
+                        <option value="select" selected>Select an option</option>
+                    </select>
+                </div>
+                <br>
+                <div >
+                    <label class="p" for="radio">What would favorite feature of Clarusway? (Check all that apply ) </label>
+                    <br>
+                    <input type="checkbox" name="movie" id="first-check" value="front" checked>
+                    <label for="first-check">Front-end Projects</label checked>
+                    <br>
+                    <input type="checkbox" name="movie" id="second-check" value="Back">
+                    <label for="second-check">Back-end Projects</label>
+                    <br>
+                    <input type="checkbox" name="movie" id="third-check" value="data" >
+                    <label for="third-check">Data Science</label>
+                    <br>
+                    <input type="checkbox" name="movie" id="third-check" value="cyber" >
+                    <label for="third-check">Cyber-security</label>
+                </div>
+                <br>
+                <div >
+                    <label class="p" for="feedback">Any comments or suggestions?</label>
+                    <br><br>
+                    <textarea name="feedback" id="feedback" cols="50" rows="10" placeholder="any comment"></textarea>
+                </div>
+                <div >
+                    <button type="submit" id="form-button">Submit</button>
+                </div>
+
+            </form>
+        </section>
+    </main>
+    
+</body>
+</html>
